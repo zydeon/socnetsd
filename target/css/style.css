@@ -1,0 +1,105 @@
+body{
+    background-image:url('pics/fibers.png');
+    text-align:center;
+    font-family:"Arial", Times, serif; 
+    color:white;
+    vertical-align:middle;
+}
+
+.sub_div{
+    background-image:url('pics/fibers.png');
+    text-align:left;
+    font-family:"Arial", Times, serif; 
+    color:white;
+    vertical-align:middle;
+}
+
+.timeline_div{
+    text-align:left;
+}
+
+.post_div {
+    background-color:rgba(0,0,0,0.6);
+    display:inline-block;
+    padding:10px;
+    border-radius:3px;
+}
+
+h1,h2{
+    color:white;
+    text-align:center;
+}
+
+p{
+    color:white;
+}
+
+.reg_div{
+    float:left;
+    display:inline-block;
+    background-color:rgba(0,0,0,0.61);
+    padding:20px;
+    color:white;
+    border-radius:5px;
+}
+.desc_div{
+    float:left;
+    display:inline-block;
+    background-color:rgba(0,0,0,0.61);
+    color:white;
+    margin-right:30px;
+    margin-bottom:15px;
+    height:150px;
+    width:200px;
+    padding:20px;
+    border-radius:5px;
+}
+.login_div{
+    float:right;
+    display:inline-block;
+    vertical-align:center;
+    padding:20px;
+    background-color:rgba(0,0,0,0.60);
+    margin-right:auto;
+    margin-bottom:15px;
+    height:150px;
+    width:200px;
+    border-radius:5px;
+}
+.main_div{
+    text-align:left;
+    display:inline-block;
+    background-color:rgba(0,0,0,0.60);
+    padding:80px;
+    height:auto;
+    border-radius:5px;
+}
+#enter{
+    align:right;
+}
+
+input#chat {
+    width: 100%;
+}
+
+#container {
+    width: 650px;
+}
+
+#history {
+    height: 450px;
+    font-family: Courier, monospace;
+    font-size: .9em;
+    text-align:left;
+    border: 1px solid #AACAAC;
+    border-right-color: #AACAAC;
+    border-bottom-color: #AACAAC;
+    overflow-y: scroll;
+    padding: 5px;
+    width: 100%;
+}
+
+#history p {
+    padding: 0;
+    margin: 0;
+}

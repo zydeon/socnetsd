@@ -1,0 +1,10 @@
+De modo a reunir as condicoes perfeitas para a execucao do software, o utilizador deve executar o servidor em maquinas distintas. Para compilar execute o comando “make” e para correr o servidor o comando “java -cp bin/ Server <type> <port> <other_server> <other_port> ”. Os campos sao os seguintes:
+
+- <type> e um inteiro que vai definir o tipo de servidor, sendo “1” para servir como primario e “2” como secundario.
+- <port> e o porto onde o server vai executar
+- <Other_server> e o hostname do servidor secundario ou primario consoante o type anteriormente definido (primario se type=2, secundario se type=1)
+- <Other_port> e o porto onde o other_server vai executar.
+
+Desta maneira, o utilizador vai ter acesso a um servidor primario e a um servidor backup a correr em duas maquinas diferentes.
+Para correr um cliente TCP, basta executar o comando “java -cp bin/ Client <hostname> <port>”, sendo <hostname> o ip do cliente e o <port> o porto onde este vai executar. Por outro lado, para correr um cliente RMI, o comando usado e “java RMIClient <hostname> <port>”, tendo os mesmo argumentos do TCP. De seguida e apresentado o menu inicial, tendo o utilizador a possibilidade de efectuar login ou registo.
+De notar que os ficheiros “users.obj”, “pms.obj”, “posts.obj”, “delayed_posts.obj” devem estar presentes na mesma pasta do codigo fonte.
