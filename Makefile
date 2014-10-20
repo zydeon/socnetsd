@@ -8,7 +8,7 @@ all:
 
 	# first project
 	make -C src/Project1
-	osascript -e 'tell app "Terminal" to do script "cd ${TOMCAT_HOME}webapps/${WEBAPP_NAME}/; ./start_server.sh 4444"'
+	./start_server.sh 4444
 	
 	# debug
 	tail -f /Library/Tomcat/logs/catalina.out
